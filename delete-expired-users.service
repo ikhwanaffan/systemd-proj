@@ -1,0 +1,6 @@
+[Unit]
+Description=Delete expired users
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/test.sh
